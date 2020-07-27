@@ -34,7 +34,7 @@
 .p1 h1 {
   font-size: 4.5vw;
 }
-.p2 .img-fluid {
+.img-fluid {
   object-fit: fill;
   border-radius: 50%;
   width: 100%;
@@ -94,9 +94,9 @@ li::after {
   .p1 h1 {
     font-size: 7vw;
   }
-  .p2 .img-fluid {
+  .img-fluid {
     position: relative !important;
-    top: -30px;
+    top: -15px;
   }
   .about {
     padding-top: 75px;
