@@ -28,37 +28,22 @@
   padding-top: 150px;
   margin-bottom: 150px;
 }
-
-.apresetation {
-  display: inline-block;
-  width: auto;
+.welcome {
+  max-width: 100%;
 }
-.apresetation h1 {
-  font-size: 50px;
-  width: auto;
+.p1 h1 {
+  font-size: 4.5vw;
 }
-
-.image-home {
-  display: inline-block;
-  width: auto;
-}
-
-.cor-azul {
-  color: rgb(39, 119, 238) !important;
-}
-
-.image-home .img-fluid {
+.p2 .img-fluid {
   object-fit: fill;
   border-radius: 50%;
+  width: 100%;
+  max-width: 360px;
 }
 
 .about {
   padding-top: 150px;
   margin-bottom: 150px;
-}
-
-.about-box {
-  width: 80%;
 }
 
 .about-text {
@@ -70,9 +55,6 @@
   margin-bottom: 250px;
 }
 
-.skill-list {
-  text-align: center;
-}
 ul {
   margin-top: 35px;
 }
@@ -94,31 +76,32 @@ li::after {
   background-color: #1e70aa;
 }
 
-@media screen and (max-width: 360px),
-  screen and (max-width: 360px),
-  screen and (max-width: 375px),
-  screen and (max-width: 411px),
-  screen and (max-width: 414px),
-  screen and (max-width: 768px),
-  screen and (max-width: 1024px) {
-  .apresetation {
-    display: block;
+@media screen and (max-width: 280px) {
+  .fa-2x {
+    font-size: 1em !important;
   }
-  .apresetation h1 {
-    font-size: 30px;
+}
+@media screen and (max-width: 320px) {
+  .p1 h1 {
+    font-size: 7.5vw;
     margin-bottom: 15px !important;
   }
+}
+@media screen and (max-width: 360px) {
   .home {
     margin-bottom: 0px !important;
+  }
+  .p1 h1 {
+    font-size: 7vw;
+  }
+  .p2 .img-fluid {
+    position: relative !important;
+    top: -30px;
   }
   .about {
     padding-top: 75px;
     margin-bottom: 100px !important;
   }
-  .about-box {
-    width: 100% !important;
-  }
-
   .skills {
     padding-top: 10px !important;
   }
@@ -131,5 +114,32 @@ li::after {
   }
   .skills {
     margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .p1 h1 {
+    font-size: 6vw;
+    margin-bottom: 15px !important;
+  }
+  .about {
+    padding-top: 100px !important;
+  }
+  .skills {
+    padding-top: 80px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home {
+    margin-bottom: 0px;
+  }
+  .about {
+    margin-bottom: 0px;
+  }
+  .skills {
+    margin-bottom: 100px;
+  }
+  .p1 h1 {
+    font-size: 5.5vw;
   }
 }
