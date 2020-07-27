@@ -73,7 +73,9 @@
 .skill-list {
   text-align: center;
 }
-
+ul {
+  margin-top: 35px;
+}
 ul > li {
   display: inline-block;
   font-weight: bold;
