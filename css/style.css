@@ -38,7 +38,7 @@
   object-fit: fill;
   border-radius: 50%;
   width: 100%;
-  max-width: 220px;
+  max-width: 300px;
 }
 
 .about {
@@ -95,8 +95,7 @@ li::after {
     font-size: 7vw;
   }
   .p2 {
-    position: relative !important;
-    top: -15px;
+    max-width: 200px !important;
   }
   .about {
     padding-top: 75px;
@@ -121,6 +120,9 @@ li::after {
     font-size: 6vw;
     margin-bottom: 15px !important;
   }
+  .p2 {
+    max-width: 220px;
+  }
   .about {
     padding-top: 100px !important;
   }
@@ -141,5 +143,9 @@ li::after {
   }
   .p1 h1 {
     font-size: 5.5vw;
+  }
+  ul {
+    margin-top: 20px;
+    padding-inline-start: 0px;
   }
 }
